@@ -4,6 +4,8 @@ Extends puppet-lint to ensure all file resources use the resource
 title to indicate the file to manage rather than a symbolic name
 and the `path` attribute.
 
+[![Build Status](https://travis-ci.org/deanwilson/puppet-lint-no_file_path_attribute-check.svg?branch=master)](https://travis-ci.org/deanwilson/puppet-lint-no_file_path_attribute-check)
+
 Instead of this:
 
     class path_attribute {
