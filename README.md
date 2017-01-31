@@ -24,7 +24,7 @@ I think, and this check complains unless, you use this format:
     }
 
 There is nothing technically wrong with the first form but I'd rather
-know what the resource type is, and what it manages, without having to read further in to the resouece.
+know what the resource type is, and what it manages, without having to read further in to the resource.
 Oddly I have no issues with `exec` resources with `command` attributes being
 [written in this style](http://www.puppetcookbook.com/posts/nicer-exec-names.html).
 
